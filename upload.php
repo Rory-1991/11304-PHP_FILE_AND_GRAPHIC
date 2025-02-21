@@ -27,16 +27,12 @@
 <body>
  <h1 class="header">檔案上傳練習</h1>
  <!----建立你的表單及設定編碼----->
- <form action="manage.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="filename" id="file">
-    <input type="text" name="desc" id="name">
-    <input type="submit" value="上傳">
+<form action="manage.php" method="post" enctype="multipart/form-data">
+ <input type="file" name="filename">
+ <input type="text" name="desc">
+ <input type="submit" value="上傳">
 
-
-
-
- </form>
-
+</form>
 
 
 
